@@ -4,6 +4,9 @@
   box-sizing: border-box;
   /* background-color: blueviolet; */
 }
+body{
+     font-family: 'Adobe Clean', sans-serif;
+}
 /* nav{
     display:inline-block;
   } */
@@ -36,7 +39,7 @@
   margin-top: 17px;
   margin-right: 23px;
   padding: 12px 14px;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   color: #ffffff;
 }
 #ele-1:hover {
@@ -52,7 +55,6 @@
   align-items: center;
   margin-top: 30px;
   color: #ffffff;
- 
 }
 .logo {
   color: red;
@@ -71,7 +73,7 @@
   margin-bottom: 22px;
 }
 .head1 {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   margin-bottom: 38px;
 }
 /* input section */
@@ -98,4 +100,65 @@
 .icon {
   color: rgb(118, 119, 118);
   margin: 27px 25px;
+}
+
+/* menu section */
+.menu {
+  margin-top: 120px;
+}
+.menu h1 {
+  margin-left: 105px;
+}
+.h1-1 {
+  font-size: 1.4rem;
+  color: rgba(25, 47, 96, 1);
+}
+.h1-2 {
+  color: rgba(140, 150, 171, 1);
+  font-size: 1.1rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 7px;
+  flex-wrap: wrap;
+  /* border: 1px solid black; */
+  margin-bottom: 72px;
+}
+.card {
+  /* border:1px solid black; */
+  margin: 26px 15px;
+  display: flex;
+  width: 360px;
+  background: rgba(255, 255, 255, 1) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+.card:hover{
+    cursor: pointer;
+}
+.card img {
+  height: 160px;
+  width: 160px;
+  object-fit: cover;
+  
+}
+.card div {
+  padding: 25px 34px 44px 29px;
+}
+.card div p {
+  color: rgba(140, 150, 171, 1);
+  font-size:1rem;
+  /* line-height: 20px; */
+}
+.card div h2 {
+  color: rgba(25, 47, 96, 1);
+  font-size:1.3rem;
+}
+
+@media only screen and (min-width: 250px) and (max-width:600px) {
+    input{
+        display: block;
+       width:100%;
+    }
 }

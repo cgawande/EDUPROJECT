@@ -30,10 +30,11 @@ body{
 }
 .navbar {
   /* border: 1px solid black; */
-
+ 
   margin-right: 101px;
   display: flex;
   justify-content: flex-end;
+ 
 }
 .items {
   margin-top: 17px;
@@ -41,14 +42,24 @@ body{
   padding: 12px 14px;
   font-size: 1.3rem;
   color: #ffffff;
+ 
 }
-#ele-1:hover {
+.items a{color: #ffffff;
+  text-decoration: none;
+ 
+  
+}
+#ele-1 a :hover {
   cursor: pointer;
 }
 #ele-2 {
   border: 1px solid #ffffff;
   border-radius: 4px;
+
 }
+/* #ele-1{
+  
+} */
 #section1 {
   display: flex;
   flex-direction: column;
@@ -160,5 +171,10 @@ body{
     input{
         display: block;
        width:100%;
+    }
+    .h1-1,.h1-2{
+      display: block;
+      width:100%;
+     
     }
 }

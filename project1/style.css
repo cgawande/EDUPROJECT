@@ -27,6 +27,7 @@ body{
   z-index: -1;
   mix-blend-mode: multiply;
   height: 480px;
+  width: 1366px;
 }
 .navbar {
   /* border: 1px solid black; */
@@ -136,6 +137,7 @@ body{
   flex-wrap: wrap;
   /* border: 1px solid black; */
   margin-bottom: 72px;
+  width: 1366px;
 }
 .card {
   /* border:1px solid black; */

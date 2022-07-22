@@ -3,6 +3,7 @@
   padding: 0px;
   box-sizing: border-box;
   /* background-color: blueviolet; */
+  
 }
 body{
      font-family: 'Adobe Clean', sans-serif;
@@ -86,6 +87,7 @@ body{
 .head1 {
   font-size: 1.8rem;
   margin-bottom: 38px;
+  width:707px;
 }
 /* input section */
 
@@ -117,30 +119,33 @@ body{
 .menu {
   margin-top: 120px;
 }
-.menu h1 {
+.h1-h2 {
   margin-left: 105px;
+  display:flex;
+  flex-direction: column;
 }
 .h1-1 {
   font-size: 1.4rem;
   color: rgba(25, 47, 96, 1);
+ 
 }
 .h1-2 {
   color: rgba(140, 150, 171, 1);
   font-size: 1.1rem;
+  
 }
 
 .container {
   display: flex;
   justify-content: center;
   margin-top: 7px;
-  flex-wrap: wrap;
-  width:100%;
+ 
   /* border: 1px solid black; */
-  margin-bottom: 72px;
+ 
 }
 .card {
   /* border:1px solid black; */
-  margin: 26px 15px;
+  margin: 13px 13px;
   display: flex;
   width: 360px;
   background: rgba(255, 255, 255, 1) 0% 0% no-repeat padding-box;
@@ -167,15 +172,23 @@ body{
   color: rgba(25, 47, 96, 1);
   font-size:1.3rem;
 }
+footer{
+  margin-top:78px;
+}
 
 @media only screen and (min-width: 250px) and (max-width:600px) {
-    input{
+   .head1, input{
         display: block;
        width:100%;
     }
     .h1-1,.h1-2{
       display: block;
+      margin:0px 0px;
       width:100%;
      
+    }
+    .container{
+      /* width:100%; */
+      flex-wrap:wrap ;
     }
 }

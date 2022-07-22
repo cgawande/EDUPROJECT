@@ -134,6 +134,7 @@ body{
   justify-content: center;
   margin-top: 7px;
   flex-wrap: wrap;
+  width:100%;
   /* border: 1px solid black; */
   margin-bottom: 72px;
 }
